@@ -2,7 +2,9 @@ import unittest
 
 
 def peak(array):
-    return None
+    if (len(array) == 0):
+        return None
+    return array[0]
 
 
 class PeakFinder(unittest.TestCase):
